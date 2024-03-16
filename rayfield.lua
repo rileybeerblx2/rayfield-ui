@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/rileybeerblx2/rayfield-ui/main/siriusrayfield.lua'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Riley Hub [TESTING]",
