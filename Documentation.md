@@ -41,13 +41,11 @@ local Window = Rayfield:CreateWindow({
 ## Creating a Tab
 ```lua
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
-})
 ```
 
 ## Creating a Section
 ```lua
 local Section = Tab:CreateSection("Section Example")
-})
 ```
 
 ## Notifying the user
@@ -89,13 +87,6 @@ local Toggle = Tab:CreateToggle({
    -- The variable (Value) is a boolean on whether the toggle is true or false
    end,
 })
-
-})
-```
-
-### Changing the value of an existing Toggle
-```lua
-CoolToggle:Set(true)
 ```
 
 ## Creating a Color Picker
